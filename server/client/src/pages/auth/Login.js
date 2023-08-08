@@ -1,11 +1,20 @@
-import React from 'react'
+import React from "react";
+//import InputType from "../../components/shared/form/InputType";
+import Form from "../../components/shared/form/Form";
 
 const Login = () => {
   return (
-    <div>
-      this is Login
-    </div>
-  )
-}
+    <>
+      <div className="row g-0">
+        <div className="col-md-8 form-banner">
+          <img src="./assets/images/banner1.jpg" alt="bannerImg" />
+        </div>
+        <div className="col-md-4 form-container">
+          <Form formTitle={"Login"} submitBtn={"Login"} formType={"login"} />
+        </div>
+      </div>
+    </>
+  );
+};
 
-export default Login
+export default Login;
