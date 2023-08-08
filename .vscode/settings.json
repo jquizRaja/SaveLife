@@ -6,7 +6,8 @@
     "mern",
     "middlewares",
     "reduxjs",
-    "savelife"
+    "savelife",
+    "toastify"
   ],
   "editor.guides.bracketPairs": true
 }

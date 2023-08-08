@@ -5,15 +5,15 @@ import { Link } from "react-router-dom";
 import { handleLogin, handleRegister } from "../../../services/authService";
 
 const Form = ({ formType, submitBtn, formTitle }) => {
-  const [email, setEmail] = useState();
-  const [password, setPassword] = useState();
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [role, setRole] = useState("donar");
-  const [name, setName] = useState();
-  const [organizationName, setOrganizationName] = useState();
-  const [hospitalName, setHospitalName] = useState();
-  const [website, setWebsite] = useState();
-  const [address, setAddress] = useState();
-  const [phone, setPhone] = useState();
+  const [name, setName] = useState("");
+  const [organizationName, setOrganizationName] = useState("");
+  const [hospitalName, setHospitalName] = useState("");
+  const [website, setWebsite] = useState("");
+  const [address, setAddress] = useState("");
+  const [phone, setPhone] = useState("");
   return (
     <div>
       <form
